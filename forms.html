@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1>Create Account</h1>
+        
+        <form>
+            <ul>
+                <li>
+                    
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fnmae" id="fname" placeholder="John Kofi" required>
+                </li>
+                <li>
+                    
+                            <label for="dob">Date Of Birth</label>
+                            <input type="date" name="dob" id="dob" required>
+
+            </li>
+            <li>
+                 <label for="address">Home Address</label>
+                 <input type="text" name="address" id="address">
+            </li>
+            <li>
+                 <p>Gender</p>
+                 <input type="radio" name="Gender" id="male">
+                 <label for="male">Male</label>
+                 <input type="radio" name="Gender" id="female">
+                 <label for="female">Female</label>
+                 <input type="radio" name="Gender" id="none" checked>
+                 <label for="none">None</label>
+            </li>
+            <li>
+               <p>Marital Status</p>
+                <input type="radio" name="Ms" id="Single" checked>
+                <label for="Single">Single</label>
+                <input type="radio" name="Ms" id="Married">
+                <label for="Married">Married</label>
+                <input type="radio" name="Ms" id="Divorced">
+                <label for="Divorced">Divorced</label>
+                <input type="radio" name="Ms" id="Widow">
+                <label for="Widow">Widow</label>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="Enter Your Email">
+            </li>
+            <li>
+                <span>State Of Origin</span>
+
+                <select>
+                    <optgroup label="South West">
+                        <option value="OS">Osun</option>
+                        <option value="lg">Lagos</option>
+                        <option value="oy">Oyo</option>
+                        <option value="og" selected>Ogun</option>
+                        <option value="ek">Ekiti</option>
+
+                    </optgroup>
+                    <optgroup label="South East">
+                        <option value="an">Anambra</option>
+                        <option value="en">Enugu</option>
+                        <option value="eb">Ebonyi</option>
+                        <option value="im">Imo</option>
+                        <option value="ab">Abia</option>
+
+                    </optgroup>
+                    <optgroup label="South South">
+                        <option value="ak">Akwa Ibom</option>
+                        <option value="cr">Cross River</option>
+                        <option value="ba">Bayelsa</option>
+                        <option value="de">Delta</option>
+                        <option value="ed">Edo</option>
+                        <option value="ri">Rivers</option>
+
+                    </optgroup>
+                </select>
+            </li>
+            <li>
+             <label for="tel">Telephone</label>
+             <input type="tel" name="tel" id="tel" required placeholder="070711111">
+            </li>
+            <li>
+              <input type="checkbox" name="accept" id="accept">
+              <label for="accept">Accept Terms &amp; conditions</label>  
+            </li>
+            <li>
+                <input type="checkbox" name="accept2" id="accept2">
+                <label for="accept2">Suscribe to our Weekly Newsletter</label>  
+
+            </li>
+            <li>
+                <input type="submit" value="Subscribe">
+            </li>
+        </ul>
+    </form>
+
+   </main> 
+</body>
+</html>

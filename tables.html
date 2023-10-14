@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <table border="2">
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+                <th scope="col">Days</th>
+                <th scope="col">Breakfast</th>
+                <th scope="col">Lunch</th>
+                <th scope="col">Dinner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Rice</td>
+                <!-- <td>Rice</td> -->
+                <td>Noodles</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td rowspan="2">Bread and Tea</td>
+                <td>Garri and Groundnut</td>
+                <td>Eba and Egusi</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <!-- <td>Bread and Tea</td> -->
+                <td>Pasta with Egg</td>
+                <td>Fufu with Bitterleaf</td>
+            </tr>
+            <tr>
+                <th scope="row">Thursday</th>
+                <td>Pap with beans</td>
+                <td>Rice and Fish</td>
+                <td>Amala with Gbegiri</td>
+            </tr>
+            <tr>
+                <th scope="row">Friday</th>
+                <td>Pap with Akara</td>
+                <td colspan="2">Fufu with Egusi</td>
+                <!-- <td>fufu with Egusi</td> -->
+            </tr>
+            <tr>
+                <th scope="row">Saturday</th>
+                <td>Noodles</td>
+                <td>Beans with Plantain</td>
+                <td>Semo with Oha</td>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td colspan="3">Rice</td>
+                <!-- <td>Rice</td> -->
+                <!-- <td>Rice</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">For the Month of October</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

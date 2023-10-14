@@ -1,0 +1,149 @@
+body {
+    background-color: seashell;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 4em;
+}
+
+header {
+    background-color: pink;
+    text-align: center;
+    color: black;
+    max-width: 5000px;
+    }
+
+
+    /*THIS IS THE STYLING OF THE HEADER SECTION, NOT TO FORGET*/
+#drop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    }
+
+nav > ul > li {
+    display: inline;
+  }
+  
+ nav > ul > li {
+    float: left;
+  }
+  
+ a {
+    display: block;
+    padding: 8px;
+    background-color: pink;
+    text-align: center;
+   text-decoration: none;
+    padding: 14px 16px;
+    color: black;
+  }
+
+  li > a:hover {
+     background-color: white;
+  }
+
+  /*THIS IS THE END OF THE STYLING OF PART 1THE HEADER SECTION*/
+
+
+  /* THIS IS THE BEGINNING OF THE STYLING OF THE ORDERED LIST UNDER THE HEADER SECTION PART 2*/
+  ol {
+    list-style-type: none;
+    background-color: pink;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  ol > li {
+    position: relative;
+    display: block;
+   }
+   
+  #down {
+   display: none;
+   position: absolute;
+   background-color: pink;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px pink;
+   z-index: 1;
+  }
+
+  #down a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  #down a:hover {
+    background-color: white;
+  }
+
+  li:hover #down {
+    display: block;
+  }
+
+  /* the end*/
+
+div nav {
+    background-color: pink;
+    color: black;
+    list-style-type: none;
+    display: grid;
+    }
+
+.dropdown {
+    display: inline;
+    list-style-type: none;
+}
+
+div aside {
+    float: right;
+    background-color: pink;
+    color: black;
+    padding-right: 20px;
+    margin-right: 50;
+    }
+
+.two {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+
+ul {
+   list-style-type: circle;
+}
+
+iframe {
+    float: right;
+    padding-bottom: 20px;
+    height: 300px;
+    background-color: pink;
+    }
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+article {
+        background-color: white;
+        
+    }
+    
+table {
+    table-layout: fixed;
+   border-collapse: collapse;
+    }
+
+form > ul > li {
+  list-style-type: none;
+} 
+
+footer {
+        background-color: pink;
+        text-align: center;
+        font-size: large;
+        }
