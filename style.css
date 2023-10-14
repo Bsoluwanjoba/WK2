@@ -1,7 +1,15 @@
-*{
-    color: blueviolet;
+h2 {
+    color: crimson;
 }
 
-p{
-    color: green;
+h2 ~ p {
+    background-color: magenta;
+}
+
+ul > li {
+    background-color: blue;
+}
+
+address > strong {
+    color: blue;
 }
