@@ -13,3 +13,7 @@ ul > li {
 address > strong {
     color: blue;
 }
+
+dl > dd {
+    background-color: cyan;
+}
