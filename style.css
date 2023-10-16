@@ -10,7 +10,7 @@ address > strong {
     color: blue;
 }
 
-dl > dd {
+dd > * {
     background-color: cyan;
 }
 
